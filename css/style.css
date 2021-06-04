@@ -3,10 +3,11 @@ body{
     font-family: HeadlineFA;
 }
 
-button{
+.btn{
+    background-color: #ffa202;
     font-family: Bookman Caps;
-  }
+}
   
-  button:hover {
-    background-color: #002a53
-  }
+  Button:hover {
+    background-color: #9A01CD !important;
+}
