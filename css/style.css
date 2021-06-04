@@ -3,15 +3,25 @@ body{
     /* font-family: HeadlineFA; */
 }
 
+.brand{
+  font-family: "French's Asylum";
+  color: #ffa202;
+}
+
+.nav-item, .nav-link{
+  font-family: "EEFBolder";
+  color:#ffa202 !important;
+}
+
+.display-4{
+  font-family: HeadlineFA;
+}
+
 .btn{
     background-color: #ffa202;
     font-family: Bookman Caps;
 }
   
-  Button:hover {
-    background-color: #9A01CD !important;
-}
-
 #Speakers{
   font-family: 'Libre Baskerville', serif;
 }
