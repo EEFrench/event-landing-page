@@ -1,6 +1,6 @@
 body{
     margin: 5px;
-    font-family: HeadlineFA;
+    /* font-family: HeadlineFA; */
 }
 
 .btn{
@@ -10,4 +10,8 @@ body{
   
   Button:hover {
     background-color: #9A01CD !important;
+}
+
+#Speakers{
+  font-family: 'Libre Baskerville', serif;
 }
