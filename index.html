@@ -7,25 +7,29 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"> 
+    <!-- MY CSS  -->
     <link rel="stylesheet" href="./css/style.css">
     <integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- SOCIAL MEDIA ICONS  -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Event Day</title>
 </head>
   <body>
     <!-- NAVBAR -->
     <div class="row navbar-expand-sm">
-      <div class="col" style="background-color: #9A01CD;">
+      <div class="col d-flex justify-content-between" style="background-color: #9A01CD;">
+        <h2 class="brand pl-2">FRENCH'S ASYLUM Presents!</h2>
         <ul class="navbar-nav">
-          <li class="brand text-xl">FRENCH'S ASYLUM Presents!</li>
           <li class="nav-item">
             <a class="nav-link" href="./index.html#Speakers">Speakers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Tickets</a>
+            <a class="nav-link" id="b1" href="./index.html#b2">Tickets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Venue</a>
+            <a class="nav-link" href="./index.html#venue">Venue</a>
           </li>
         </ul>
       </div>
@@ -35,22 +39,23 @@
     <div class="jumbotron text-center">
       <h1 class="display-4">Return of the Annual BBQ Bash!!!</h1>
       <p class="lead">It's a BBQ, Steak, Chicken, Mr. Ed's Lima Beans & Bacon</p>
-      <a class="btn btn-primary btn-lg" href="https://getbootstrap.com/docs/4.5/content/typography/" role="button" target="_blank">Get Your Ticket</a>
+      <a class="btn btn-primary btn-lg" id="b2" href="./index.html#b3" role="button">Get Your Ticket</a>
     </div>
 
     <!-- SPEAKERS  -->
     <div class="container-fluid text-center">
       <h2 id="Speakers">The Speakers</h2>
-      <p>It's a BBQ, We'll probably just use the Speakers on my stereo</p>
+      <p>It's a BBQ, We'll probably just use the Speakers on my computer</p>
     </div>
+    <br>
 
     <!-- SPEAKER CARDS  -->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-3">
+        <div class="col-md-3">
           <div class="card" style="width: 18rem;">
             <div class="card-body">
-              <img src="./img/IMG_9055.JPG" class="rounded" alt="WTF?"style="width:100%";>
+              <img src="./img/IMG_9055.JPG" class="rounded" alt="main speaker"style="width:100%";>
               <h5 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -59,23 +64,10 @@
             </div>
           </div>
       </div>
-        <div class="col-3">
+        <div class="col-md-3">
           <div class="card" style="width: 18rem;">
             <div class="card-body">
-              <img src="./img/IMG_9056.JPG" class="rounded" alt="WTF?"style="width:100%";>
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-      </div>
-      
-        <div class="col-3">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <img src="./img/IMG_9052.JPG" class="rounded" alt="2TF?"style="width:100%";>
+              <img src="./img/IMG_9056.JPG" class="rounded" alt="volume control"style="width:100%";>
               <h5 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -85,10 +77,10 @@
           </div>
       </div>
       
-      <div class="col-3">
+        <div class="col-md-3">
           <div class="card" style="width: 18rem;">
             <div class="card-body">
-              <img src="./img/IMG_9057.JPG" class="rounded" alt="WTF?"style="width:100%";>
+              <img src="./img/IMG_9052.JPG" class="rounded" alt="game room speakers"style="width:100%";>
               <h5 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -97,10 +89,72 @@
             </div>
           </div>
       </div>
+      
+      <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img src="./img/IMG_9057.JPG" class="rounded" alt="headphones"style="width:100%";>
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
       </div>
+    </div>
   </div>
 
-      
+<!-- SPACER  -->
+  <br><br><br><br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 border-bottom" style="width: 18rem;">
+      </div>
+    </div>
+  </div>
 
-  </body>
+<!-- TICKET INFO  -->
+<br>
+  <div class="container-fluid text-center">
+    <h2 id="Speakers"> Get Your Tickets Here!</h2>
+    <p>They're FREE! They're not good for anything, they're just free...</p>
+    <a class="btn btn-primary btn-lg" id="b3" href="./index.html#b1" role="button">Buy Ticket $$$</a>
+  </div>
+  <br><br>
+
+<!-- SPACER  -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 border-bottom" style="width: 18rem;">
+      </div>
+    </div>
+  </div>
+ <br>
+
+ <!-- VENUE  -->
+ <div class="container-fluid">
+   <div class="row">
+    <div class="col-sm-4">
+      <h2 id="Speakers">The Venue</h2>
+    <p>Usually this event would be held at The Asylum. But as this is just a sample, and I didn't want to put a map out to my house, I figured I'd sent you to Hart Park. </p>
+    </div>
+   
+    <div class="col-sm-8">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10932.999364521927!2d-118.91939959052745!3d35.44487990142096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ea6f00e9667bcd%3A0xb7e9ba2c3279e68d!2sHart%20Park!5e0!3m2!1sen!2sus!4v1622860854217!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col" style="background-color: #ffa202;">
+      <div class="footer">
+        <article><p></p></article>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+  </div>
+
 </html>
