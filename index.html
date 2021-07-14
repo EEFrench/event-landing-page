@@ -7,24 +7,156 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"> 
+    <!-- MY CSS  -->
     <link rel="stylesheet" href="./css/style.css">
     <integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- SOCIAL MEDIA ICONS  -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Hello, world!</title>
-  </head>
+    <title>Event Day</title>
+</head>
   <body>
-    <h1>Hello, world!</h1>
-    <button class="btn btn-danger" onclick="alert('THANK YOU!')">Click Me</button>
-    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- NAVBAR -->
+    <div class="row navbar-expand-sm">
+      <div class="col d-flex justify-content-between" style="background-color: #9A01CD;">
+        <h2 class="brand pl-2">FRENCH'S ASYLUM Presents!</h2>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#Speakers">Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="b1" href="./index.html#b2">Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#venue">Venue</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- JUMBOTRON  -->
+    <div class="jumbotron text-center">
+      <h1 class="display-4">Return of the Annual BBQ Bash!!!</h1>
+      <p class="lead">It's a BBQ, Steak, Chicken, Mr. Ed's Lima Beans & Bacon</p>
+      <a class="btn btn-primary btn-lg" id="b2" href="./index.html#b3" role="button">Get Your Ticket</a>
+    </div>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- SPEAKERS  -->
+    <div class="container-fluid text-center pt-5">
+      <h2 id="Speakers">The Speakers</h2>
+      <p>It's a BBQ, We'll probably just use the Speakers on my computer</p>
+    </div>
+    <!-- <br> -->
 
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
-  </body>
+    <!-- SPEAKER CARDS  -->
+    <div class="container-fluid d-flex justify-content-center py-5">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img src="./img/IMG_9055.JPG" class="rounded" alt="main speaker"style="width:100%";>
+              <h5 class="card-title">Wuvf</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Logitech Speaker Set</h6>
+              <p class="card-text">Logi, originally hails from my Dad's place. He moved to my desk in early 2020.</p>
+              <a href="#" class="card-link">No Really a Link</a>
+              <a href="#" class="card-link">Another Dead Link</a>
+            </div>
+          </div>
+      </div>
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img src="./img/IMG_9099.JPG" class="rounded" alt="bluetooth"style="width:100%";>
+              <h5 class="card-title">Lil' Yellow</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Nakamichi Buetooth Speaker</h6>
+              <p class="card-text">Naka is the latest addition to my Speaker family, She was given to me by my Neice last night.</p>
+              <a href="#" class="card-link">Dead Link</a>
+              <a href="#" class="card-link">Another Link that Goes Nowhere</a>
+            </div>
+          </div>
+      </div>
+      
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img src="./img/IMG_9057.JPG" class="rounded" alt="Headphones"style="width:100%";>
+              <h5 class="card-title">E. Quinton</h5>
+              <h6 class="card-subtitle mb-2 text-muted">SiperEQ Headphone</h6>
+              <p class="card-text">I know, they're not Speakers per se, but they do give me the chance to listen to my music in private.</p>
+              <a href="#" class="card-link">Not a Link</a>
+              <a href="#" class="card-link">Still Not a Link</a>
+            </div>
+          </div>
+      </div>
+      
+      <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <img src="./img/IMG_9052.JPG" class="rounded" alt="Craft Room Speakers"style="width:100%";>
+              <h5 class="card-title">C.R. Speak</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Logitech Speakers</h6>
+              <p class="card-text">They sit all alone in my Craft Room.Only to be used while I'm painting minis.</p>
+              <a href="#" class="card-link">Link, Not Really</a>
+              <a href="#" class="card-link">Another Usless link</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!-- SPACER  -->
+  <!-- <br><br><br><br> -->
+  <div class="container-fluid px-5">
+    <div class="row">
+      <div class="col-sm-12 border-bottom" style="width: 18rem;">
+      </div>
+    </div>
+  </div>
+
+<!-- TICKET INFO  -->
+<!-- <br> -->
+  <div class="container-fluid text-center py-5 mx-5">
+    <h2 id="Speakers"> Get Your Tickets Here!</h2>
+    <p>They're FREE! They're not good for anything, they're just free...</p>
+    <a class="btn btn-primary btn-lg" id="b3" href="./index.html#b1" role="button">Buy Ticket $$$</a>
+  </div>
+  <!-- <br><br> -->
+
+<!-- SPACER  -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 border-bottom" style="width: 18rem;">
+      </div>
+    </div>
+  </div>
+ <br>
+
+ <!-- VENUE  -->
+ <div class="container-fluid">
+   <div class="row">
+    <div class="col-sm-4">
+      <h2 id="Speakers">The Venue</h2>
+    <p>Usually this event would be held at The Asylum. But as this is just a sample, and I didn't want to put a map out to my house, I figured I'd sent you to Hart Park. </p>
+    </div>
+
+   <!-- GOOGLE MAP  -->
+    <div class="col-sm-8">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10932.999364521927!2d-118.91939959052745!3d35.44487990142096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ea6f00e9667bcd%3A0xb7e9ba2c3279e68d!2sHart%20Park!5e0!3m2!1sen!2sus!4v1622860854217!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     </div>
+    </div>
+  </div>
+
+  <!-- FOOTER  -->
+  <div class="row">
+    <div class="col" style="background-color: #ffa202;">
+      <div class="footer">
+        <article><p></p></article>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+  </div>
+
 </html>
